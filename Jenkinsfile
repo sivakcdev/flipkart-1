@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('clone') {
             steps {
-               git clone https://github.com/sivakcdev/flipkart-1.git
+               echo "please clone"
             }
         }
         stage ('Build') {
